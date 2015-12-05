@@ -14,6 +14,8 @@
 		7BA245281C129D7D003C07AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA245261C129D7D003C07AC /* LaunchScreen.storyboard */; };
 		7BA245331C129D7D003C07AC /* Lawn_LoversTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA245321C129D7D003C07AC /* Lawn_LoversTests.swift */; };
 		7BA2453E1C129D7D003C07AC /* Lawn_LoversUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA2453D1C129D7D003C07AC /* Lawn_LoversUITests.swift */; };
+		7BA2454C1C12A90C003C07AC /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA2454B1C12A90C003C07AC /* signInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7BA2454E1C12A922003C07AC /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA2454D1C12A922003C07AC /* registerViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7BA245391C129D7D003C07AC /* Lawn LoversUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lawn LoversUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA2453D1C129D7D003C07AC /* Lawn_LoversUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lawn_LoversUITests.swift; sourceTree = "<group>"; };
 		7BA2453F1C129D7D003C07AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA2454B1C12A90C003C07AC /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		7BA2454D1C12A922003C07AC /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				7BA2451D1C129D7C003C07AC /* AppDelegate.swift */,
 				7BA2451F1C129D7C003C07AC /* ViewController.swift */,
+				7BA2454B1C12A90C003C07AC /* signInViewController.swift */,
+				7BA2454D1C12A922003C07AC /* registerViewController.swift */,
 				7BA245211C129D7C003C07AC /* Main.storyboard */,
 				7BA245241C129D7D003C07AC /* Assets.xcassets */,
 				7BA245261C129D7D003C07AC /* LaunchScreen.storyboard */,
@@ -192,6 +198,7 @@
 				TargetAttributes = {
 					7BA245191C129D7C003C07AC = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = FGFTX6V73N;
 					};
 					7BA2452D1C129D7D003C07AC = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -255,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BA2454E1C12A922003C07AC /* registerViewController.swift in Sources */,
 				7BA245201C129D7C003C07AC /* ViewController.swift in Sources */,
+				7BA2454C1C12A90C003C07AC /* signInViewController.swift in Sources */,
 				7BA2451E1C129D7C003C07AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,7 +407,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Lawn Lovers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SuyhmedTimo-Inc.Lawn-Lovers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,7 +420,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Lawn Lovers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SuyhmedTimo-Inc.Lawn-Lovers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
