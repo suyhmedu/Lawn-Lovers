@@ -198,7 +198,6 @@
 				TargetAttributes = {
 					7BA245191C129D7C003C07AC = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = FGFTX6V73N;
 					};
 					7BA2452D1C129D7D003C07AC = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -411,8 +410,9 @@
 				INFOPLIST_FILE = "Lawn Lovers/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SuyhmedTimo-Inc.Lawn-Lovers";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suti.Lawn-Lovers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -424,8 +424,9 @@
 				INFOPLIST_FILE = "Lawn Lovers/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SuyhmedTimo-Inc.Lawn-Lovers";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suti.Lawn-Lovers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -496,6 +497,7 @@
 				7BA245441C129D7D003C07AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BA245451C129D7D003C07AC /* Build configuration list for PBXNativeTarget "Lawn LoversTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +506,7 @@
 				7BA245471C129D7D003C07AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BA245481C129D7D003C07AC /* Build configuration list for PBXNativeTarget "Lawn LoversUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +515,7 @@
 				7BA2454A1C129D7D003C07AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
